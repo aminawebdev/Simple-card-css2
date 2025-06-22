@@ -1,0 +1,29 @@
+/*  start mini freamwork */
+body{font-family:verdana, sans serif;background-color:black;}
+p{color:#888;}
+h2,h3{color:#FFF;font:normal bold 30px/1.6 verdana, sans serif ;}
+.styling{padding:60px 80px 10px 80px}
+/*  end mini freamwork */
+/* structures */
+.container{margin:auto; width:1200px;}
+.card {
+	background-color:#5C1837;
+	overflow:hidden;
+	margin-top:250px;
+}
+.card .text	{width:38%}
+.card .text h2{padding-bottom:20px;}
+.card .text h2 > span {color:pink;}
+.card .text p {text-align:justify;}
+.card .text .evaluation .stat { display:inline-block;padding:40px 60px 0 0;}
+.card .text .evaluation .stat h3 {font-size:20px; }
+.card .text .evaluation .stat p {text-transform:uppercase; }
+.card .text ,.card .image {float:left;}
+.card .image { width:48%;}
+.card .image img{width:100%;height:520px;display:block;}	
+/* Utilities */
+.clearfix::after {
+	content: "";
+	display:block;
+	clear:both;
+}
